@@ -5,4 +5,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Hello Step
-       run: echo "Github actiosn"
+       run: |
+        echo "First line"
+        echo "Second line"
